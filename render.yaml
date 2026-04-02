@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: image-enhancer-api
+    env: python
+    region: oregon
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port 10000
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
+      - key: MAX_UPLOAD_SIZE_MB
+        value: 5
+      - key: MAX_OUTPUT_SIZE_MB
+        value: 1
+      - key: MAX_CONCURRENT_TASKS
+        value: 50
+      - key: ALLOWED_ORIGINS
+        value: "https://your-frontend-domain.vercel.app" # UPDATE THIS
+      - key: ALLOWED_API_KEY_HASHES
+        value: "placeholder_hash_please_update" # UPDATE THIS
+      - key: LOG_LEVEL
+        value: INFO

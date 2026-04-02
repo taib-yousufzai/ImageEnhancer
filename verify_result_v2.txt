@@ -1,0 +1,8 @@
+Testing image enhancement...
+SUCCESS: Model loaded
+Original size: (100, 100)
+Enhanced size: (200, 200)
+Original Color: (255, 0, 0)
+Enhanced Mean Color: [254.952425   0.29985    3.26185 ]
+SUCCESS: Output is Red-ish
+SUCCESS: Image enhanced to 2x size

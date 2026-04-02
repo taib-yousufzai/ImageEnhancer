@@ -1,0 +1,14 @@
+Verifying Hybrid Engine...
+SUCCESS: Both models loaded in 1.58s
+
+--- Testing x2 Path (Scale=2) ---
+Time (x2): 1.0596s
+Output Size: (200, 200)
+SUCCESS: Size correct
+
+--- Testing x4 Path (Scale=4) ---
+Time (x4): 3.7016s
+Output Size: (400, 400)
+SUCCESS: Size correct
+
+SUCCESS: x2 path is 3.5x faster than x4 path

@@ -1,0 +1,21 @@
+Testing custom image resizing...
+--- Testing Scale 2x ---
+Input size: (100, 50)
+Args: {'scale_factor': 2}
+Output size: (200, 100)
+SUCCESS: Scale 2x produced correct size (200, 100)
+--- Testing Custom W=300 ---
+Input size: (100, 50)
+Args: {'target_width': 300}
+Output size: (300, 150)
+SUCCESS: Custom W=300 produced correct size (300, 150)
+--- Testing Custom H=200 ---
+Input size: (100, 50)
+Args: {'target_height': 200}
+Output size: (400, 200)
+SUCCESS: Custom H=200 produced correct size (400, 200)
+--- Testing Custom 150x150 ---
+Input size: (100, 50)
+Args: {'target_width': 150, 'target_height': 150}
+Output size: (150, 150)
+SUCCESS: Custom 150x150 produced correct size (150, 150)

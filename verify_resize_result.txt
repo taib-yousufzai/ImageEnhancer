@@ -1,0 +1,16 @@
+Testing image resizing...
+--- Testing Scale 1x ---
+Input size: (50, 50)
+Target scale: 1x
+Output size: (50, 50)
+SUCCESS: Scale 1x produced correct size (50, 50)
+--- Testing Scale 2x ---
+Input size: (50, 50)
+Target scale: 2x
+Output size: (100, 100)
+SUCCESS: Scale 2x produced correct size (100, 100)
+--- Testing Scale 4x ---
+Input size: (50, 50)
+Target scale: 4x
+Output size: (200, 200)
+SUCCESS: Scale 4x produced correct size (200, 200)
